@@ -15,7 +15,7 @@ const client = new ApolloClient({
 const Blog: NextPage<Props> = ({ blog }) => {
   console.log(blog);
   return (
-    <div className="bg-white">
+    <div className="bg-white h-screen">
       <p className="text-5xl text-center">
         <strong>{blog.attributes.title}</strong>
       </p>

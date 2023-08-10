@@ -7,6 +7,7 @@ export const LIST_BLOG = gql(`
                 id
                 attributes {
                     title
+                    description
                 }
             }
         }

@@ -11,10 +11,12 @@ interface Props {
 const BlogPage: NextPage<Props> = ({ blogs }) => {
   return (
     <>
-      <div className="h-screen bg-white justify-center text-center items-center">
-        <h1 className="text-black text-6xl">
+      <div className="h-auto bg-white justify-center text-center items-center">
+        <h1 className="text-black text-6xl py-4">
           <strong>Blog & News</strong>
         </h1>
+      </div>
+      <div className="h-[66rem] bg-white justify-center text-center items-center">
         <BlogCardList blogs={blogs} />
       </div>
     </>
